@@ -1,6 +1,5 @@
 # WWW previous history
 
-----
 
 ## 1941
 
