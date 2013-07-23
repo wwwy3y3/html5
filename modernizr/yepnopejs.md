@@ -21,7 +21,7 @@ yepnope({
 看上面的這個範例可以看到，他會先去跑 `jquery.min.js` 然後同時跑 `jquery-ui.min.js`，同時跑的原因就是因為他這個 module loader 是用非同步的 load modules 進來。
 
 
-![yepnope logo](./img/logo/yepnope.jpg "yepnope logo")
+![yepnope logo](../img/logo/yepnope.jpg "yepnope logo")
 
 ----
 

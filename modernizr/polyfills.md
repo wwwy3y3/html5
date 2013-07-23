@@ -22,6 +22,4 @@ pollyfills 的概念就是
 
 -----
 
-我有寫一篇 [yepnope.js](/yepnope/module-loader/2013/06/26/yepnope-js.html)
-
 Modernizr 有篇 wiki 專門寫他們有收集到的 polyfills 還滿實用的 [HTML5 Cross Browser Polyfills](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-browser-Polyfills)
