@@ -1,97 +1,32 @@
-## html5 
+# HTML5
 
-html5 並不是什麼非常新的技術，在維基百科上就可以查得 " HTML 5 草案的前身名為 Web Applications 1.0 ，是在 2004 年由 WHATWG 提出，再於 2007 年獲 W3C 接納" 。所以之所以他很普遍所以也對開發者來說非常重要，需要花點時間去了解。
+到目前大部分新的瀏覽器都開始支援 HTML5 的功能。但是大部分的人用到的還是 HTML4+ 或是 HTML4 很少人真的完全照 HTML5 的規則走。
 
-用了 html5 你也不需要把你 html4 裡面的語法丟掉，因為他們有很好的整合。完全的兼容。
+HTML 當初會被發起的原因是因為希望可以連結，把不同地方的東西連在一起（或叫互連）。
 
+而 HTML5 也沒有失去 "互連" 的特性，但是他加入了很多不同的媒體到裡面，例如說 audio, video 等等...，這些都是為了實現當初可以互相連結的基本概念。只是把他寫在 browser中。這樣直接寫入有個好處就是 javascript 可以直接更精確更直接的去設定，不用像以前一樣還要寫一個龐大的 javascript 只為了去寫一個龐大的 video system...等等。
 
-## 使用 html5
- 
-``` html
+## HTML5 多媒體
 
-<!DOCTYPE html>
+HTML5 多媒體的原因：
 
-```
+- 網站可以不只是像網站，可以有更多的變化。
+- 網站不只是代表一個人或是組織（以前網站主要目的用來給組織或個人架設用），還有可能是現在流行的社群網站等等...，所以需要更多能用的功能。
+- 網站可以跨越不同的平台，例如手機、平板等等
 
-把這個放在整個網站的最上面，就可以使用 html5 的語法了，簡單吧！
+## HTML5 & js
 
+HTML5 會使得 javascript 用在他應該用在的地方。現在常常會 load 很多一堆有的沒的 script 可能是 validate, date... 這些大家大部分會用的 function 有很多不同的 javascript files load in 使得在程式碼內 javascript 顯得特別混亂。所以 HTML5 如果能夠把這些東西直接寫在 HTML5 中的話可以減少很多的 js code 把 js 檔更專注於處理一些 js ，把一些 HTML5 給的 API 連上一些動作等等。而且可以讓 js 直接的對 object 做處理。
 
-## MIME types
+## 標籤
 
+HTML5 也可以讓標籤更易讀，因為現在很多 div 的 id 會設定為 header, nav, footer 而 HTML5 希望可以把這些東西寫成常用的標籤。使得 HTML 內不會只有 div 這樣的標籤而已。
 
-> 多用途網際網路郵件擴展（MIME，Multipurpose Internet Mail Extensions）是一個網際網路標準，它擴展了電子郵件標準，使其能夠支持非ASCII字元、二進制格式附件等多種格式的郵件消息。
-（來源自 [wikipedia](http://zh.wikipedia.org/wiki/%E5%A4%9A%E7%94%A8%E9%80%94%E4%BA%92%E8%81%AF%E7%B6%B2%E9%83%B5%E4%BB%B6%E6%93%B4%E5%B1%95)）
-
-mime types 之所以重要的原因是每次你的 browser 送一次 request 給 server 的時候， server 都會傳一個 header 給 browser 說他回傳的資料形式是什麼。
-
-
-### 內容類型
-
-``` html
-
-Content-Type: [type]/[subtype]; parameter
-
-```
-
-#### type 形式：
-
-- Text：用於標準化地表示的文本信息，文本消息可以是多種字符集和或者多種格式的
-
-- Multipart：用於連接消息體的多個部分構成一個消息，這些部分可以是不同類型的數據
-
-- Application：用於傳輸應用程序數據或者二進制數據
-
-- Message：用於包裝一個E-mail消息
-
-- Image：用於傳輸靜態圖片數據
-
-- Audio：用於傳輸音頻或者音聲數據
-
-- Video：用於傳輸動態影像數據，可以是與音頻編輯在一起的視頻數據格式。
-
-#### subtype:
-
-- text/plain（純文本）
-
-- text/html（HTML文檔）
-
-- application/xhtml+xml（XHTML文檔）
-
-- image/gif（GIF圖像）
-
-- image/jpeg（JPEG圖像）【PHP中為：image/pjpeg】
-
-- image/png（PNG圖像）【PHP中為：image/x-png】
-
-- video/mpeg（MPEG動畫）
-
-- application/octet-stream（任意的二進制數據）
-
-- application/pdf（PDF文檔）
-
-- application/msword（Microsoft Word文件）
-
-- application/vnd.wap.xhtml+xml (wap1.0+)
-
-- application/xhtml+xml (wap2.0+)
-
-- message/rfc822（RFC 822形式）
-
-- multipart/alternative（HTML郵件的HTML形式和純文本形式，相同內容使用不同形式表示）
-
-- application/x-www-form-urlencoded（使用HTTP的POST方法提交的表單）
-
-- multipart/form-data（同上，但主要用於表單提交時伴隨文件上傳的場合）
-
-（來源自 [wikipedia](http://zh.wikipedia.org/wiki/%E5%A4%9A%E7%94%A8%E9%80%94%E4%BA%92%E8%81%AF%E7%B6%B2%E9%83%B5%E4%BB%B6%E6%93%B4%E5%B1%95)）
-
-### 內容編碼
-
-``` html
-
-Content-Transfer-Encoding: [mechanism]
-
-```
+而且 HTML5 支援大部分舊的標籤。
 
 
-也就是 MIME type 的原因，client 才知道他所接收到的訊息是什麼格式。
+
+
+資料：
+
+- What is HTML5? ([amazon](http://www.amazon.com/What-Is-HTML5-ebook/dp/B005ISQ7JM/ref=sr_1_1?ie=UTF8&qid=1374582022&sr=8-1&keywords=what+is+html5))
