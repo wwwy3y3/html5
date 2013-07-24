@@ -4,7 +4,6 @@ html5 並不是什麼非常新的技術，在維基百科上就可以查得 " HT
 
 用了 html5 你也不需要把你 html4 裡面的語法丟掉，因為他們有很好的整合。完全的兼容。
 
-----
 
 ## 使用 html5
  
@@ -16,7 +15,6 @@ html5 並不是什麼非常新的技術，在維基百科上就可以查得 " HT
 
 把這個放在整個網站的最上面，就可以使用 html5 的語法了，簡單吧！
 
-----
 
 ## MIME types
 
@@ -26,7 +24,6 @@ html5 並不是什麼非常新的技術，在維基百科上就可以查得 " HT
 
 mime types 之所以重要的原因是每次你的 browser 送一次 request 給 server 的時候， server 都會傳一個 header 給 browser 說他回傳的資料形式是什麼。
 
-----
 
 ### 內容類型
 
@@ -96,6 +93,5 @@ Content-Transfer-Encoding: [mechanism]
 
 ```
 
------
 
 也就是 MIME type 的原因，client 才知道他所接收到的訊息是什麼格式。
