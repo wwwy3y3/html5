@@ -8,18 +8,15 @@ pollyfills 的概念就是
 
 > A shim that mimics a future API providing fallback functionality to older browsers.
 
-----
 
 ## 寫 polyfills
 
 雖然我本身沒有寫過 polyfills 但是這裡有篇不錯的文章推薦給大家 [Writing polyfills](http://addyosmani.com/blog/writing-polyfills/)
 
-----
 
 ## 如何使用 polyfills 
 
 很多人都是用 yepnope 來加上 Modernizr 來判斷說他的 browser 有沒有支援有的話就不跑 polyfills ，沒的話就去跑 polyfills 補足。
 
------
 
 Modernizr 有篇 wiki 專門寫他們有收集到的 polyfills 還滿實用的 [HTML5 Cross Browser Polyfills](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-browser-Polyfills)

@@ -23,13 +23,11 @@ yepnope({
 
 ![yepnope logo](../img/logo/yepnope.jpg "yepnope logo")
 
-----
 
 ## 為什麼要使用 yepnope
 
 yepnope 可以用最快的速度去用非同步和平行處理的方式去載入你要的 js, css 檔。為什麼不要把它像傳統一樣直接全部載入的原因是因為 yepnope 這樣非同步處理的方式會比傳統上的方式快很多。
 
-----
 
 ## yepnope 的 API
 
@@ -70,7 +68,7 @@ yepnope({
 
 Modernizr.geolocation 這就是 Modernizr 的 test 如果他可以去執行這個 function 的話會跑 yep, 如果不行就跑 nope，跑完後跑 callback。
 
-如果他跑 nope 的話可以讓他去跑一些 [Polyfills](/html5/polyfills/2013/06/26/polyfills.html) (也就是一些專門支援舊版本不支援新版本的 browser，讓他們能夠去支援這些 function)
+如果他跑 nope 的話可以讓他去跑一些 Polyfills (也就是一些專門支援舊版本不支援新版本的 browser，讓他們能夠去支援這些 function)
 
 就這樣簡單介紹。
 

@@ -12,6 +12,7 @@
 - http://introducinghtml5.com/
 - http://html5doctor.com/
 - http://joshduck.com/periodic-table.html
+- http://www.script-tutorials.com/
 
 
 書:
