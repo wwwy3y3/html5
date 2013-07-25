@@ -13,6 +13,9 @@
 - http://html5doctor.com/
 - http://joshduck.com/periodic-table.html
 - http://www.script-tutorials.com/
+- http://html5demos.com/
+- http://html5video.org/
+- http://html5reset.org/
 
 
 書:
