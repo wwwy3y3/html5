@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<style>
+			input[type="range"]::before {
+				content: attr(min);
+			}
+			input[type="range"]::after {
+				content: attr(max);
+			}
+
+			input[type="range"] {
+				width: 500px;
+				color: red;
+				font-family: cursive;
+				font-size: 2em;
+			}
+
+		</style>
+		
+	</head>
+	
+	<body>
+		<input type="range" min="1" max="11" name="tap">
+	</body>
+
+</html>
